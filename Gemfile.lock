@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/stympy/faker.git
+  revision: bc912ae08ec8c369ca2cee543656f70207d2a84a
+  branch: master
+  specs:
+    faker (1.8.7)
+      i18n (>= 0.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -156,6 +164,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   factory_bot_rails (~> 4.0)
+  faker!
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)
